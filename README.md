@@ -62,7 +62,7 @@ This configuration balances contextual coverage with computational efficiency an
 
 Model training is implemented using the HuggingFace `Trainer` framework, providing a structured, reproducible training loop with built-in evaluation and checkpointing.
 
-The dataset is split using stratified sampling into training, validation, and test sets with an 80-10-10 ratio.
+The dataset is partitioned into training, validation, and test sets using stratified sampling in an 80:10:10 ratio.
 
 Optimization configuration:
 - Optimizer: AdamW
