@@ -73,7 +73,7 @@ Optimization configuration:
 - Evaluation frequency: End of each epoch
 - Model selection criterion: Validation F1-score
 
-The best-performing checkpoint is automatically selected based on F1-score to ensure balanced precision and recall.
+The optimal checkpoint is automatically selected based on the F1-score, balancing precision and recall.
 
 ## Evaluation and Validation Architecture
 
